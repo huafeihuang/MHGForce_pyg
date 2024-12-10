@@ -18,6 +18,15 @@ python train_MHGForce.py --dname cora --method HyperGCN --use_physic
 [1] [ Shuo Yu, Huafei Huang, Yanming Shen, Pengfei Wang, Qiang Zhang, Ke Sun and Honglong Chen, "Formulating and Representing Multiagent Systems With Hypergraphs," *IEEE Transactions on Neural Networks and Learning Systems*, 2024.](https://ieeexplore.ieee.org/document/10449457)
 
 
+## Datasets download
+
+[All dataset can be download here](https://drive.google.com/drive/folders/1UgK_mXz4pshyGUQ2m8xUwt0k9E_dRnZu?usp=sharing)
+
+- cora
+- citeseer
+- cora-ca
+- zoo
+- ntu2012
 
 ## Cite
 
