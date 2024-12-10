@@ -3,6 +3,7 @@
 # Formulating and Representing Multiagent Systems With Hypergraphs in Pytorch
 
 PyTorch implementation of MHGForce [1].
+by pyg and pytorch.
 
 ## Usage
 
