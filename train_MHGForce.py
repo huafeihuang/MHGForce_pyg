@@ -21,7 +21,7 @@ warnings.filterwarnings("ignore")
 
 
 parser = argparse.ArgumentParser("physic", formatter_class=argparse.ArgumentDefaultsHelpFormatter)
-parser.add_argument('--dname', type=str, default='cora', help='dataset name')
+parser.add_argument('--dname', type=str, default='cora', help='dataset name') # ['cora','citeseer','cora-ca','zoo','ntu2014']
 # HGNN_pyg,HyperGCN,HNHN,HyperSAGE_pyg,UniGCNII_pyg/MLP/AllDeepSets/EDHNN
 parser.add_argument('--method', type=str, default='HyperGCN', help='UniGNN Model(UniGCN, UniGAT, UniGIN, UniSAGE...)')
 parser.add_argument('--add_self_loop', action="store_true", help='add-self-loop to hypergraph')
